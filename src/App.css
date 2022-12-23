@@ -32,6 +32,6 @@
   background: white;
   cursor: pointer;
   color: var(--orange);
-  border: 1px solid var(--orange);
+  border: 2px solid var(--orange);
 }
   
