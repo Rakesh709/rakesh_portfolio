@@ -4,6 +4,7 @@ import './Skills.css';
 import HeartEmoji from "../../img/heartemoji.png";
 import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
+import Card from '../Card/Card.jsx';
 
 function Skills() {
   return (
@@ -18,7 +19,13 @@ function Skills() {
             </div>
             {/* right side */}
             <div className="cards">
-                I AM RIGHT SIDE
+                <div>
+                        <Card
+                        emoji={HeartEmoji}
+                        heading={"Design"}
+                        detail={"figma,sketch, photoshop,Adobe"}
+                        />
+                </div>
             </div>
         </div>
   )
