@@ -6,6 +6,8 @@ import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
 import Card from '../Card/Card.jsx';
 
+import Resume from "./resume.pdf";
+
 function Skills() {
   return (
         <div className="skills">
@@ -14,7 +16,9 @@ function Skills() {
                 <span>My</span>
                 <span>Skills</span>
                 <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br/> Exercitationem vero, sequi autem, similique sapiente no nisi.</span>
+                <a href={Resume} download >
                 <button className="button s-button">Download CV</button>
+                </a>
                 <div className="blur s-blur1" style={{background:'#BF1FF94'}}></div>
             </div>
             {/* right side */}
