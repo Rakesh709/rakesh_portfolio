@@ -19,11 +19,25 @@ function Skills() {
             </div>
             {/* right side */}
             <div className="cards">
-                <div style={{left:"14rem"}}>
+                <div style={{left:"25rem"}}>
                         <Card
                         emoji={HeartEmoji}
                         heading={"Design"}
                         detail={"figma,sketch, photoshop,Adobe"}
+                        />
+                </div>
+                <div style={{top:"12rem",left:"3rem"}}>
+                        <Card
+                        emoji={Glasses}
+                        heading={"Developer"}
+                        detail={"Html , Css , JavaScript, React"}
+                        />
+                </div>
+                <div style={{top:"19rem",left:"19rem"}}>
+                        <Card
+                        emoji={Humble}
+                        heading={"Linux"}
+                        detail={"Kali Linux , Ubuntu"}
                         />
                 </div>
             </div>
