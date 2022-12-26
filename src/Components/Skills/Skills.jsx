@@ -19,22 +19,22 @@ function Skills() {
                 <a href={Resume} download >
                 <button className="button s-button">Download CV</button>
                 </a>
-                <div className="blur s-blur1" style={{background:'#BF1FF94'}}></div>
+                <div className="blur s-blur1" style={{background:'#C1F5FF'}}></div>
             </div>
             {/* right side */}
             <div className="cards">
                 <div style={{left:"25rem"}}>
                         <Card
                         emoji={HeartEmoji}
-                        heading={"Design"}
-                        detail={"figma,sketch, photoshop,Adobe"}
+                        heading={"Programming"}
+                        detail={"JavaScript, Java, MySql"}
                         />
                 </div>
                 <div style={{top:"12rem",left:"3rem"}}>
                         <Card
                         emoji={Glasses}
                         heading={"Developer"}
-                        detail={"Html , Css , JavaScript, React"}
+                        detail={"Html , Css , Bootstrap, React"}
                         />
                 </div>
                 <div style={{top:"19rem",left:"19rem"}}>
@@ -44,6 +44,7 @@ function Skills() {
                         detail={"Kali Linux , Ubuntu"}
                         />
                 </div>
+                <div className="blur s-blur2" style={{background:"var(--purple"}}></div>
             </div>
         </div>
   )

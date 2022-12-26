@@ -7,7 +7,10 @@ function Card(props) {
         <img src={props.emoji} alt="emoji" />
         <span>{props.heading}</span>
         <span>{props.detail}</span>
+        <a href="">
         <button className="c-button">LEARN MORE</button>
+        </a>
+        
     </div>
   )
 }
