@@ -1,18 +1,24 @@
 import React from "react";
 import "./Works.css";
 
-import Upwork from "../../img/Upwork.png";
+// import Upwork from "../../img/Upwork.png";
 import Fiverr from "../../img/fiverr.png";
 import Amazon from "../../img/amazon.png";
 import Shopify from "../../img/Shopify.png";
 import Facebook from "../../img/Facebook.png";
+import javaImg from "../../img/javaImg.png";
+import linuxImg from "../../img/linuxImg.jpg"
+import awsImg from "../../img/awsImg1.png";
+import microsoftImg from "../../img/microsoftImg.png";
+import apigeeImg from "../../img/apigeeImg.png"
+import canvaImg from "../../img/canvaImg.png";
 
 function Works() {
   return (
     <div className="works">
       <div className="awesome">
-        <span>Work for All these</span>
-        <span>Brands & Clients</span>
+        <span>Work in All these</span>
+        <span>Software & Tools</span>
         <span>
           Lorem ipsum dolor sit amet consectetur elit.
           <br /> Exercitationem vero, sequi autem,
@@ -26,19 +32,19 @@ function Works() {
       <div className="w-right">
         <div className="w-mainCircle">
           <div className="w-secCircle">
-            <img src={Upwork} alt="upwork" />
+            <img src={awsImg} alt="aws" />
           </div>
           <div className="w-secCircle">
-            <img src={Fiverr} alt="fiver" />
+            <img src={apigeeImg} alt="apigee" />
           </div>
           <div className="w-secCircle">
-            <img src={Amazon} alt="Amazon" />
+            <img src={canvaImg} alt="canva" />
           </div>
           <div className="w-secCircle">
-            <img src={Shopify} alt="Shopify" />
+            <img src={linuxImg} alt="linux" />
           </div>
           <div className="w-secCircle">
-            <img src={Facebook} alt="Facebook" />
+            <img src={microsoftImg} alt="microsoft" />
           </div>
         </div>
         <div className="w-backCircle blueCircle"></div>
