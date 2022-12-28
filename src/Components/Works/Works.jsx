@@ -20,10 +20,11 @@ function Works() {
         <span>Work in All these</span>
         <span>Software & Tools</span>
         <span>
-          Lorem ipsum dolor sit amet consectetur elit.
-          <br /> Exercitationem vero, sequi autem,
-          <br /> similique sapiente no nisi.
-          <br /> Exercitationem vero, sequi autem{" "}
+          In aws i know about EC2,S3 and some more tools.
+          <br /> In APIGEE edge, know how to create RESTFUL API,
+          <br /> In Microsift office excil, ppt , word.
+          <br /> In Linux know about ubuntu.
+          <br/> Canva is used for creating website demo.
         </span>
         <button className="button s-button">Hire Me</button>
         <div className="blur s-blur1" style={{ background: "#C1F5FF" }}></div>
