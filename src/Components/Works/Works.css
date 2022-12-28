@@ -63,3 +63,21 @@
 .w-secCircle>img{
     transform: scale(0.6);
 }
+
+.w-backCircle{
+    position: absolute;
+    height: 13rem;
+    width: 13rem;
+    border-radius: 100%;
+    z-index: -1;
+}
+.blueCircle{
+    background: #1949B8;
+    left: 18rem;
+    top: 0rem;
+}
+.yellowCircle{
+    background: #F5C32C;
+    left: 18rem;
+    top: 8rem;
+}
