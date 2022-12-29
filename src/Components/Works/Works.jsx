@@ -2,11 +2,11 @@ import React from "react";
 import "./Works.css";
 
 // import Upwork from "../../img/Upwork.png";
-import Fiverr from "../../img/fiverr.png";
-import Amazon from "../../img/amazon.png";
-import Shopify from "../../img/Shopify.png";
-import Facebook from "../../img/Facebook.png";
-import javaImg from "../../img/javaImg.png";
+// import Fiverr from "../../img/fiverr.png";
+// import Amazon from "../../img/amazon.png";
+// import Shopify from "../../img/Shopify.png";
+// import Facebook from "../../img/Facebook.png";
+// import javaImg from "../../img/javaImg.png";
 import linuxImg from "../../img/linuxImg.jpg"
 import awsImg from "../../img/awsImg1.png";
 import microsoftImg from "../../img/microsoftImg.png";
