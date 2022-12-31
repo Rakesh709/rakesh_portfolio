@@ -10,7 +10,7 @@ import Resume from "./resume.pdf";
 
 function Skills() {
   return (
-        <div className="skills">
+        <div className="skills" id="Skills">
             {/* life side */}
             <div className="awesome">
                 <span>My</span>

@@ -13,9 +13,10 @@ import microsoftImg from "../../img/microsoftImg.png";
 import apigeeImg from "../../img/apigeeImg.png"
 import canvaImg from "../../img/canvaImg.png";
 
+
 function Works() {
   return (
-    <div className="works">
+    <div className="works" id="Works">
       <div className="awesome">
         <span>Work in All these</span>
         <span>Software & Tools</span>
