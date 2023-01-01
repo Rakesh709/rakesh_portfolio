@@ -1,18 +1,11 @@
 import React from "react";
 import "./Works.css";
-
-// import Upwork from "../../img/Upwork.png";
-// import Fiverr from "../../img/fiverr.png";
-// import Amazon from "../../img/amazon.png";
-// import Shopify from "../../img/Shopify.png";
-// import Facebook from "../../img/Facebook.png";
-// import javaImg from "../../img/javaImg.png";
 import linuxImg from "../../img/linuxImg.jpg"
 import awsImg from "../../img/awsImg1.png";
 import microsoftImg from "../../img/microsoftImg.png";
 import apigeeImg from "../../img/apigeeImg.png"
 import canvaImg from "../../img/canvaImg.png";
-
+import { motion } from "framer-motion";
 
 function Works() {
   return (
@@ -32,7 +25,12 @@ function Works() {
       </div>
       {/* right side */}
       <div className="w-right">
-        <div className="w-mainCircle">
+        <motion.div 
+          initial={{rotate:45}}
+          whileInView={{rotate:0}}
+          viewport={{margin:"-40px"}}
+          transition={{duration:3.5,type:"spring"}}
+          className="w-mainCircle">
           <div className="w-secCircle">
             <img src={awsImg} alt="aws" />
           </div>
@@ -48,7 +46,7 @@ function Works() {
           <div className="w-secCircle">
             <img src={microsoftImg} alt="microsoft" />
           </div>
-        </div>
+        </motion.div>
         <div className="w-backCircle blueCircle"></div>
         <div className="w-backCircle yellowCircle"></div>
       </div>
