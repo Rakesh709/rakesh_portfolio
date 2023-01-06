@@ -9,7 +9,7 @@ import { useContext } from 'react';
 function Toggle() {
 
   const theme =useContext(themeContext);
-  const darkMode =theme.darkMode;
+  const darkMode =theme.state.darkMode;
 
 
   const handleClick=()=>{
