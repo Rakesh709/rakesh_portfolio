@@ -10,16 +10,23 @@ import Resume from "./resume.pdf";
 
 import {motion} from "framer-motion";
 
+import { themeContext } from "../../Context";
+import { useContext } from 'react';
+
 function Skills() {
     //for transition
     const transition = {duration: 1 , type:"spring"}
+     // context
+   const theme = useContext(themeContext);
+   const darkMode = theme.state.darkMode;
+
 
 
   return (
         <div className="skills" id="Skills">
             {/* life side */}
             <div className="awesome">
-                <span>My</span>
+                <span style={{color:darkMode ? "white" : " "}} >My</span>
                 <span>Skills</span>
                 <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br/> Exercitationem vero, sequi autem, similique sapiente no nisi.</span>
                 <a href={Resume} download >

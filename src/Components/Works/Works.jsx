@@ -7,11 +7,18 @@ import apigeeImg from "../../img/apigeeImg.png"
 import canvaImg from "../../img/canvaImg.png";
 import { motion } from "framer-motion";
 
+import { themeContext } from "../../Context";
+import { useContext } from 'react';
+
 function Works() {
+   // context
+   const theme = useContext(themeContext);
+   const darkMode = theme.state.darkMode;
+
   return (
     <div className="works" id="Works">
       <div className="awesome">
-        <span>Work in All these</span>
+        <span style={{color:darkMode ? "white" : " "}}>Work in All these</span>
         <span>Software & Tools</span>
         <span>
           In aws i know about EC2,S3 and some more tools.
