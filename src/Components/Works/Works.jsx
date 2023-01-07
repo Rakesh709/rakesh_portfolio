@@ -9,6 +9,7 @@ import { motion } from "framer-motion";
 
 import { themeContext } from "../../Context";
 import { useContext } from 'react';
+import { Link } from "react-scroll";
 
 function Works() {
    // context
@@ -27,7 +28,9 @@ function Works() {
           <br /> In Linux know about ubuntu.
           <br/> Canva is used for creating website demo.
         </span>
+        <Link spy={true} to='contact-form' smooth={true}>
         <button className="button s-button">Hire Me</button>
+        </Link>
         <div className="blur s-blur1" style={{ background: "#C1F5FF" }}></div>
       </div>
       {/* right side */}

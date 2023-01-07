@@ -17,6 +17,9 @@ import { useContext } from 'react';
 
 import {motion} from "framer-motion";
 
+import { Link } from "react-scroll";
+
+
 function Intro() {
 
   const transition = {duration: 2 , type:"spring"}
@@ -35,7 +38,9 @@ function Intro() {
                 <span>Rakesh Kumar</span>
                 <span>Front end Developer with high level of experience i web designing and development, producting the quality work</span>
             </div>
+            <Link spy={true} to='contact-form' smooth={true}>
             <button className="button i-button">Hire Me</button>
+            </Link>
             <div className="i-icons">
               <a href="https://github.com/Rakesh709"><img src={Github} alt="github" /></a>
               <a href="https://www.linkedin.com/in/rakesh-kumar-6b3228145/"><img src={LinkedIn} alt="linkedin" /></a>

@@ -35,9 +35,11 @@ function Navbar() {
                     {/* <li>Testimonials</li> */}
                 </ul>
             </div>
+            <Link spy={true} to='contact-form' smooth={true}>
             <button className="button n-button">
                 Contact
             </button>
+            </Link>
         </div>
     </div>
   )
