@@ -44,7 +44,7 @@ function Intro() {
             <div className="i-icons">
               <a href="https://github.com/Rakesh709"><img src={Github} alt="github" /></a>
               <a href="https://www.linkedin.com/in/rakesh-kumar-6b3228145/"><img src={LinkedIn} alt="linkedin" /></a>
-              <a href="https://www.instagram.com/"> <img src={Instagram} alt="instagram" /></a>
+              <a href="https://www.instagram.com/bucket_flow_/"> <img src={Instagram} alt="instagram" /></a>
             </div>
         </div>
         <div className="i-right">

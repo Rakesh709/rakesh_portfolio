@@ -21,3 +21,12 @@
     display: flex;
     gap: 2rem;
 }
+@media screen and (max-width:480px){
+    
+    .f-icons{
+        margin-bottom: 1rem;
+    }
+    .f-content>span{
+        display: none;
+    }
+}
