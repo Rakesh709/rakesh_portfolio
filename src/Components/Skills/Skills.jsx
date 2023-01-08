@@ -28,7 +28,7 @@ function Skills() {
             <div className="awesome">
                 <span style={{color:darkMode ? "white" : " "}} >My</span>
                 <span>Skills</span>
-                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br/> Exercitationem vero, sequi autem, similique sapiente no nisi.</span>
+                <span>Problem Solving ,Good Communication , Team Work, Self Learner.<br/>Enthusiastic to learn new things</span>
                 <a href={Resume} download >
                 <button className="button s-button">Download CV</button>
                 </a>

@@ -36,7 +36,7 @@ function Intro() {
             
                 <span style={{color:darkMode ? "white" : " "}}>hi! I Am</span>
                 <span>Rakesh Kumar</span>
-                <span>Front end Developer with high level of experience i web designing and development, producting the quality work</span>
+                <span>Front end Developer with high level of experience in web designing and development, producting the quality work</span>
             </div>
             <Link spy={true} to='contact-form' smooth={true}>
             <button className="button i-button">Hire Me</button>
@@ -73,7 +73,7 @@ function Intro() {
              style={{top:'18rem',left:'0rem'}}
              className='floating-div'
              >
-              <FloatingDiv image={thumbup} txt1='Best Design' txt2='Award' />
+              <FloatingDiv image={thumbup} txt1='Content' txt2='Creater' />
             </motion.div>
             {/* blur divs */}
             <div className="blur" style={{background:'rgb(238,210,255)'}}></div>

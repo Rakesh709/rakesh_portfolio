@@ -2,10 +2,17 @@ import React from 'react';
 import "./Portfolio.css";
 import {Swiper, SwiperSlide} from 'swiper/react';
 
-import Siderbar from '../../img/sidebar.png';
-import Ecommerce from '../../img/ecommerce.png';
-import HOC from '../../img/hoc.png';
-import MusicApp from '../../img/musicapp.png';
+// import Siderbar from '../../img/sidebar.png';
+// import Ecommerce from '../../img/ecommerce.png';
+// import HOC from '../../img/hoc.png';
+// import MusicApp from '../../img/musicapp.png';
+import ProfileReact from "../../img/Pproject.png";
+import OrderSum from "../../img/orderSumarry.png";
+import Dice from "../../img/Dice.png";
+import QR from "../../img/QRCode.png";
+
+
+
 import 'swiper/css'
 
 import { themeContext } from "../../Context";
@@ -32,16 +39,16 @@ function Portfolio() {
         
         >
             <SwiperSlide>
-                <img src={Siderbar} alt="" />
+                <img src={ProfileReact} alt="" />
             </SwiperSlide>
             <SwiperSlide>
-                <img src={Ecommerce} alt="" />
+                <img src={OrderSum} alt="" />
             </SwiperSlide>
             <SwiperSlide>
-                <img src={HOC} alt="" />
+                <img src={Dice} alt="" />
             </SwiperSlide>
             <SwiperSlide>
-                <img src={MusicApp} alt="" />
+                <img src={QR} alt="" />
             </SwiperSlide>
 
         </Swiper>
