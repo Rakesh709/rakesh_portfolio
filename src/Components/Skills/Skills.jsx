@@ -6,7 +6,8 @@ import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
 import Card from '../Card/Card.jsx';
 
-import Resume from "./resume.pdf";
+
+import RakeshResume from "./Rakesh_Resume.pdf";
 
 import {motion} from "framer-motion";
 
@@ -29,7 +30,7 @@ function Skills() {
                 <span style={{color:darkMode ? "white" : " "}} >My</span>
                 <span>Skills</span>
                 <span>Problem Solving ,Good Communication , Team Work, Self Learner.<br/>Enthusiastic to learn new things</span>
-                <a href={Resume} download >
+                <a href={RakeshResume} download >
                 <button className="button s-button">Download CV</button>
                 </a>
                 <div className="blur s-blur1" style={{background:'#C1F5FF'}}></div>
