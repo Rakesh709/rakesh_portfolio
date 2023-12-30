@@ -10,6 +10,7 @@ import thumbup from '../../img/thumbup.png';
 import Crown from '../../img/crown.png';
 import glassesimoji from '../../img/glassesimoji.png';
 import FloatingDiv from '../FloatingDiv/FloatingDiv';
+import newprofile from '../../img/new-profile.png';
 
 import { themeContext } from "../../Context";
 import { useContext } from 'react';
@@ -36,21 +37,21 @@ function Intro() {
             
                 <span style={{color:darkMode ? "white" : " "}}>hi! I Am</span>
                 <span>Rakesh Kumar</span>
-                <span>Front end Developer with high level of experience in web designing and development, producting the quality work</span>
+                <span>I am a passionate <strong>DevOps enthusiast</strong>, API Developer, and <strong>Frontend Developer</strong> with extensive expertise in web design and development. My commitment to <i> delivering top-notch quality work </i> has been the cornerstone of my professional journey</span>
             </div>
             <Link spy={true} to='contact-form' smooth={true}>
             <button className="button i-button">Hire Me</button>
             </Link>
             <div className="i-icons">
-              <a href="https://github.com/Rakesh709"><img src={Github} alt="github" /></a>
-              <a href="https://www.linkedin.com/in/rakesh-kumar-6b3228145/"><img src={LinkedIn} alt="linkedin" /></a>
-              <a href="https://www.instagram.com/bucket_flow_/"> <img src={Instagram} alt="instagram" /></a>
+              <a className='github-icon' href="https://github.com/Rakesh709"><img src={Github} alt="github" /></a>
+              <a className='linkedin-icon' href="https://www.linkedin.com/in/rakesh-kumar-6b3228145/"><img src={LinkedIn} alt="linkedin" /></a>
+              <a className='instgram-icon' href="https://www.instagram.com/bucket_flow_/"> <img src={Instagram} alt="instagram" /></a>
             </div>
         </div>
         <div className="i-right">
             <img src={Vector1} alt="" />
             <img src={Vector2} alt="" />
-            <img src={boy} alt="" />
+            <img src={newprofile} alt="" />
             <motion.img 
             initial={{left:"-36%"}}
             whileInView={{left:'-24%'}}
