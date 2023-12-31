@@ -8,7 +8,7 @@ function Card(props) {
         <span>{props.heading}</span>
         <span>{props.detail}</span>
         <a href="/">
-        <button className="c-button">LEARN MORE</button>
+        {/* <button className="c-button">LEARN MORE</button> */}
         </a>
         
     </div>

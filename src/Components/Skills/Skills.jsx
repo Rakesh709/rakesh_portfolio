@@ -29,7 +29,12 @@ function Skills() {
             <div className="awesome">
                 <span style={{color:darkMode ? "white" : " "}} >My</span>
                 <span>Skills</span>
-                <span>Problem Solving ,Good Communication , Team Work, Self Learner.<br/>Enthusiastic to learn new things</span>
+                <span className='summary'>
+                <p>Proficient in <i>full-stack development</i> using React.js, Python, Java, and Bootstrap, implementing agile methodologies for collaborative efficiency.</p>
+                <p>Skilled in Docker, Jenkins, AWS, Git/GitHub, adept in CI/CD setup, API development, and thorough testing with Postman and Selenium.</p>
+                <p>Strong problem-solving ability, experienced in RESTful API creation, DevOps practices, and optimizing project performance across diverse technologies.</p>
+
+                </span>
                 <a href={RakeshResume} download >
                 <button className="button s-button">Download CV</button>
                 </a>
@@ -45,8 +50,8 @@ function Skills() {
                 style={{left:"25rem"}}>
                         <Card
                         emoji={HeartEmoji}
-                        heading={"Programming"}
-                        detail={"JavaScript, Java, MySql"}
+                        heading={"Development & Programming"}
+                        detail={"React.js,HTML&CSS,Java,Shell scripting"}
                         />
                 </motion.div>
                 <motion.div 
@@ -58,8 +63,8 @@ function Skills() {
                 style={{top:"12rem",left:"3rem"}}>
                         <Card
                         emoji={Glasses}
-                        heading={"Developer"}
-                        detail={"Html , Css , Bootstrap, React"}
+                        heading={"Tools & Technologies:"}
+                        detail={"Docker,Jenkins,K8s,AWS,Apigee Edge,Git"}
                         />
                 </motion.div>
                 <motion.div 
@@ -70,8 +75,8 @@ function Skills() {
                 style={{top:"19rem",left:"19rem"}}>
                         <Card
                         emoji={Humble}
-                        heading={"Linux"}
-                        detail={"Kali Linux , Ubuntu"}
+                        heading={"Other Relevant Skills & Knowledge"}
+                        detail={"RESTful API Development CI/CD Pipeline Development&Testing(Postman, Datadog) & DevOps Practices"}
                         />
                 </motion.div>
                 <div className="blur s-blur2" style={{background:"var(--purple"}}></div>

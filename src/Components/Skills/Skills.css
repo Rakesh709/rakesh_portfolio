@@ -26,7 +26,15 @@
     color: var(--gray);
     font-size: 14px;
     margin-top: 1rem;
+    margin-right: 10rem;
+    display: flex;
+    flex-direction: column;
+    width: 350px; /* Adjust width as needed */
 }
+
+
+  
+ 
 
 .s-button{
     width: 8rem;
