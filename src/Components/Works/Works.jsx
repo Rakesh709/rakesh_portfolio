@@ -7,6 +7,9 @@ import apigeeImg from "../../img/apigeeImg.png"
 import canvaImg from "../../img/canvaImg.png";
 import { motion } from "framer-motion";
 
+import docker from "../../img/docker.png";
+import kubernates from "../../img/Kubernetes.png";
+
 import { themeContext } from "../../Context";
 import { useContext } from 'react';
 import { Link } from "react-scroll";
@@ -48,13 +51,13 @@ function Works() {
             <img src={apigeeImg} alt="apigee" />
           </div>
           <div className="w-secCircle">
-            <img src={canvaImg} alt="canva" />
+            <img src={kubernates} alt="canva" />
           </div>
           <div className="w-secCircle">
             <img src={linuxImg} alt="linux" />
           </div>
           <div className="w-secCircle">
-            <img src={microsoftImg} alt="microsoft" />
+            <img src={docker} alt="microsoft" />
           </div>
         </motion.div>
         <div className="w-backCircle blueCircle"></div>
