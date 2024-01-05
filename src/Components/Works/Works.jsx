@@ -25,11 +25,11 @@ function Works() {
         <span style={{color:darkMode ? "white" : " "}}>Work in All these</span>
         <span>Software & Tools</span>
         <span>
-          In aws i know about EC2,S3 and some more tools.
-          <br /> In APIGEE edge, know how to create RESTFUL API,
-          <br /> In Microsift office excil, ppt , word.
-          <br /> In Linux know about ubuntu.
-          <br/> Canva is used for creating website demo.
+          In aws i know about EC2,S3 and more tools.
+          <br /> In APIGEE edge, hands-on expertise in APIGEE Edge,
+          <br /> Robust understanding of containerization using Docker.
+          <br /> Comprehensive working knowledge of Linux.
+          <br/> Proficient in Kubernetes, the industry-leading container orchestration tool.
         </span>
         <Link spy={true} to='contact-form' smooth={true}>
         <button className="button s-button">Hire Me</button>
