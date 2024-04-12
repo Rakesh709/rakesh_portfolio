@@ -7,7 +7,8 @@ import Humble from "../../img/humble.png";
 import Card from '../Card/Card.jsx';
 
 
-import RakeshResume from "./Rakesh_Resume.pdf";
+
+import rakeshResume from "./Rakesh-Resume.pdf";
 
 import {motion} from "framer-motion";
 
@@ -35,7 +36,7 @@ function Skills() {
                 <p>Strong problem-solving ability, experienced in RESTful API creation, DevOps practices, and optimizing project performance across diverse technologies.</p>
 
                 </span>
-                <a href={RakeshResume} download >
+                <a href={rakeshResume} download >
                 <button className="button s-button">Download CV</button>
                 </a>
                 <div className="blur s-blur1" style={{background:'#C1F5FF'}}></div>

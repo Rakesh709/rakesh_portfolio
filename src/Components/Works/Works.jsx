@@ -2,9 +2,9 @@ import React from "react";
 import "./Works.css";
 import linuxImg from "../../img/linuxImg.jpg"
 import awsImg from "../../img/awsImg1.png";
-import microsoftImg from "../../img/microsoftImg.png";
+
 import apigeeImg from "../../img/apigeeImg.png"
-import canvaImg from "../../img/canvaImg.png";
+
 import { motion } from "framer-motion";
 
 import docker from "../../img/docker.png";
@@ -51,13 +51,13 @@ function Works() {
             <img src={apigeeImg} alt="apigee" />
           </div>
           <div className="w-secCircle">
-            <img src={kubernates} alt="canva" />
+            <img src={kubernates} alt="kubernates" />
           </div>
           <div className="w-secCircle">
             <img src={linuxImg} alt="linux" />
           </div>
           <div className="w-secCircle">
-            <img src={docker} alt="microsoft" />
+            <img src={docker} alt="docker" />
           </div>
         </motion.div>
         <div className="w-backCircle blueCircle"></div>

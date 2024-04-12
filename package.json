@@ -12,10 +12,11 @@
     "framer-motion": "6.2.4",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-id-swiper": "^4.0.0",
     "react-scripts": "5.0.0",
     "react-scroll": "^1.8.9",
     "react-tabs": "^4.2",
-    "swiper": "^8.4.5",
+    "swiper": "^8.4.7",
     "web-vitals": "^2.1.0"
   },
   "scripts": {
